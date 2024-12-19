@@ -2,13 +2,13 @@
     0% {
         stroke-dashoffset: 1800;
         opacity: 0;
-        fill: none;10    }
+        fill: none;}
     30% {
         opacity: 1;
         fill: none;
         stroke-dashoffset: 1800;
     }
-    90% {10        fill: #EBEBEB;
+    90% {       fill: #EBEBEB;
     }
     100% {
         opacity: 1;
