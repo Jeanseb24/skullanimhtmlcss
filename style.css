@@ -1,0 +1,30 @@
+@keyframes animate{
+    0% {
+        stroke-dashoffset: 1800;
+        opacity: 0;
+        fill: none;10    }
+    30% {
+        opacity: 1;
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+    90% {10        fill: #EBEBEB;
+    }
+    100% {
+        opacity: 1;
+        fill: #EBEBEB;
+        stroke-dashoffset: 0;
+    }
+}
+
+
+#trace{
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px;
+    fill: rbg(51,51,51);
+    stroke-dasharray: 1800;
+    animation-name: animate;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-out;
+}
